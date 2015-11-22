@@ -20,10 +20,24 @@ tinymce.PluginManager.add('tabulation', function(editor) {
 
 		e.preventDefault();
 
-		editor.insertContent('&nbsp; &nbsp; &nbsp; &nbsp;');
-		console.log(editor.selection.getStart());
-		console.log(editor.dom.getParent(editor.selection.getStart()));
-		if (editor.dom.getParent(editor.selection.getStart(), 'LI,DT,DD')) {
+		/**
+		 * todo
+		 * - configure indentation content with tinymce getParam()
+		 */
+		function indentSelection(){
+			editor.insertContent('&nbsp; &nbsp; &nbsp; &nbsp;');
+		}
+
+		/**
+		 * todo
+		 * - INDENT/OUTDENT IF shift
+		 * - INDENT IN START OF LINE
+		 */
+		function outdentSelection(){
+			// todo
+		}
+
+		if (editor.dom.getParent(editor.selection.getStart(), 'p')) {
 
 			if (e.shiftKey) {
 				outdentSelection();
