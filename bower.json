@@ -1,0 +1,21 @@
+{
+  "name": "tinymce-plugin-tabulation",
+  "version": "0.1.0",
+  "authors": [
+    "Rémi Becheras <rbecheras@sirap.fr>"
+  ],
+  "description": "An Plugin for the tinymce wysiwyg HTML editor that provide tabulation on `tab` keypress",
+  "main": "plugin.js",
+  "keywords": [
+    "tinymce",
+    "plugin"
+  ],
+  "license": "LGPL-2.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
