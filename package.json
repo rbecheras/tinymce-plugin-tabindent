@@ -1,6 +1,6 @@
 {
   "name": "tinymce-plugin-indet",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "An Plugin for the tinymce wysiwyg HTML editor that provide indentation on `tab` keypress",
   "main": "plugin.js",
   "dependencies": {
