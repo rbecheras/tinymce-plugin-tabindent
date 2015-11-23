@@ -10,7 +10,7 @@
 
 /*global tinymce:true */
 
-tinymce.PluginManager.add('tabulation', function(editor) {
+tinymce.PluginManager.add('indent', function(editor) {
 
 	editor.on('keydown', function(e) {
 		// Check for tab but not ctrl/cmd+tab since it switches browser tabs
