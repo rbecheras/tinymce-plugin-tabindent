@@ -25,25 +25,11 @@ tinymce.PluginManager.add('indent', function(editor) {
 		 * - configure indentation content with tinymce getParam()
 		 */
 		function indentSelection(){
-			editor.insertContent('&nbsp; &nbsp; &nbsp; &nbsp;');
-		}
-
-		/**
-		 * todo
-		 * - INDENT/OUTDENT IF shift
-		 * - INDENT IN START OF LINE
-		 */
-		function outdentSelection(){
-			// todo
+			editor.insertContent('&emsp;');
 		}
 
 		if (editor.dom.getParent(editor.selection.getStart(), 'p')) {
-
-			if (e.shiftKey) {
-				outdentSelection();
-			} else {
-				indentSelection();
-			}
+			indentSelection();
 		}
 	});
 });
