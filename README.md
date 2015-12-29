@@ -1,3 +1,3 @@
-# tinymce-plugin-indent
+# tinymce-plugin-tabindent
 
-An Plugin for the tinymce wysiwyg HTML editor that provide indentation on `tab` keypress.
+An Plugin for the tinymce wysiwyg HTML editor that provide a tabulation indentation on `tab` keypress.
