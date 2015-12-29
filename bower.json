@@ -1,14 +1,17 @@
 {
-  "name": "tinymce-plugin-indent",
+  "name": "tinymce-plugin-tabindent",
   "version": "0.3.2",
   "authors": [
     "Rémi Becheras <rbecheras@sirap.fr>"
   ],
-  "description": "An Plugin for the tinymce wysiwyg HTML editor that provide indentation on `tab` keypress",
+  "description": "An Plugin for the tinymce wysiwyg HTML editor that provide a tabulation indentation on `tab` keypress.",
   "main": "plugin.js",
   "keywords": [
     "tinymce",
-    "plugin"
+    "plugin",
+    "styles",
+    "indentation",
+    "tabulation"
   ],
   "license": "LGPL-2.1",
   "ignore": [

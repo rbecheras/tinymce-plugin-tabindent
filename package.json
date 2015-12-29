@@ -1,7 +1,7 @@
 {
-  "name": "tinymce-plugin-indent",
+  "name": "tinymce-plugin-tabindent",
   "version": "0.3.2",
-  "description": "An Plugin for the tinymce wysiwyg HTML editor that provide indentation on `tab` keypress",
+  "description": "An Plugin for the tinymce wysiwyg HTML editor that provide a tabulation indentation on `tab` keypress.",
   "main": "plugin.js",
   "dependencies": {
     "grunt-contrib-jshint": "^0.11.3"
@@ -18,17 +18,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:sirap-group/tinymce-plugin-tabulation.git"
+    "url": "git+https://github.com:sirap-group/tinymce-plugin-tabindent.git"
   },
   "keywords": [
     "tinymce",
     "plugin",
-    "styles"
+    "styles",
+    "indentation",
+    "tabulation"
   ],
   "author": "Rémi Becheras <rbecheras@sirap.fr>",
   "license": "LGPL-2.1",
   "bugs": {
-    "url": "https://github.com/sirap-group/tinymce-plugin-tabulation/issues"
+    "url": "https://github.com/sirap-group/tinymce-plugin-tabindent/issues"
   },
-  "homepage": "https://github.com/sirap-group/tinymce-plugin-tabulation#readme"
+  "homepage": "https://github.com/sirap-group/tinymce-plugin-tabindent#readme"
 }
