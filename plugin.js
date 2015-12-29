@@ -10,7 +10,7 @@
 
 /*global tinymce:true */
 
-tinymce.PluginManager.add('indent', function(editor) {
+tinymce.PluginManager.add('tabindent', function(editor) {
 
 	editor.on('keydown', function(e) {
 		// Check for tab but not ctrl/cmd+tab since it switches browser tabs
@@ -21,7 +21,7 @@ tinymce.PluginManager.add('indent', function(editor) {
 		e.preventDefault();
 
 		/**
-		 * todo
+		 * @todo
 		 * - configure indentation content with tinymce getParam()
 		 */
 		function indentSelection(){
