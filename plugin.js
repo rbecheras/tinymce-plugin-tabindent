@@ -25,7 +25,7 @@ tinymce.PluginManager.add('tabindent', function(editor) {
 		 * - configure indentation content with tinymce getParam()
 		 */
 		function indentSelection(){
-			editor.insertContent('&emsp;');
+			editor.insertContent('&nbsp;&nbsp;&nbsp;&nbsp;');
 		}
 
 		if (editor.dom.getParent(editor.selection.getStart(), 'p')) {
